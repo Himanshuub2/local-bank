@@ -56,7 +56,7 @@ const Photo = ()=>{
                     {
                         images.map(item=>(
                             <div className="w-56 mb-[20px]">
-                                <Image src = {item} className="w-48 h-48" />
+                                <Image src = {item} className="w-48 h-48" alt="photos" />
                             </div>
                         ))
                     }
