@@ -43,3 +43,13 @@
   opacity:1;
  }
 }
+
+
+
+.table,.td,.th,.tr{
+  border:1px solid black;
+}
+
+.td{
+  margin-left:10px;
+}
