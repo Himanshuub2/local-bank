@@ -23,7 +23,7 @@ const Main= ()=>{
                 {
                     imgs.map(item=>(
                         <div className="w-1/4 h-1/3 bg-blue-100 mr-12">
-                            <Image src = {item} className="w-46 h-36 mb-6" />
+                            <Image src = {item} className="w-46 h-36 mb-6" alt = "photos"/>
 
                         </div>
                     ))
