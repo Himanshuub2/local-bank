@@ -50,13 +50,13 @@ const images = [img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12,i
 const Photo = ()=>{
     return(
         <div className = "w-screen min-h-min">
-            <h1>PHOTO GALLERY</h1>
+            <h1 className="text-center text-white text-3xl font-medium  bg-gradient-to-b from-green-500 to-green-300  my-3">PHOTO GALLERY</h1>
             <div className="flex justify-center">
-                <div className="w-3/4 bg-red-100 flex flex-row flex-wrap">
+                <div className="w-3/4 bg-green-100 flex flex-row flex-wrap border-2 border-black">
                     {
                         images.map(item=>(
-                            <div className="w-56 mb-[20px]">
-                                <Image src = {item} className="w-48 h-48" alt="photos" />
+                            <div className="w-56 mb-[20px] flex justify-center items-center ">
+                                <Image src = {item} className="w-48 h-48 border border-2 mt-6 ml-6 border-gray-700 rounded-lg" alt="photos" />
                             </div>
                         ))
                     }

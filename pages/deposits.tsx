@@ -7,10 +7,10 @@ const Deposits  = ()=>{
         <div className=" min-h-min mb-4">
             
         <div className="flex flex-row min-h-min">
-            <div className="bg-green-200 w-1/4 min-h-min">
+            <div className="bg-green-100 w-1/4 min-h-min">
                 
             </div>
-            <div className="bg-green-300 w-3/4 min-h-min">
+            <div className="bg-green-200 w-3/4 min-h-min">
                 <h1 className="font-bold text-2xl mb-6">TYPES OF DEPOSIT <p className="inline text-[15px] text-blue-500 font-medium">(*DEPOSIT INTEREST RATES ARE SUBJECT TO CHANGING FROM TIME TO TIME)</p> </h1>
                {/*  --------------------///----//////////// */}
             <div className="flex justify-center flex-col items-center w-full">

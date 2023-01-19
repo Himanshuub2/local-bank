@@ -1,17 +1,20 @@
 import React from "react";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
+import NewCar from "../components/NewCar";
 
 
 const Profile = ()=>{
     return(
         <div>
-            
+            <NewCar/>
             <div className="flex flex-row">
+
                 <div className="bg-green-200 w-1/4 h-screen">
                     
                 </div>
-                <div className="bg-green-300 w-3/4 h-screen">
-                    <h1 className="font-bold text-2xl mb-6">OUR PROFILE </h1>
+                
+                <div className="bg-blue-100 w-3/4 h-screen">
+                    <h1 className="font-bold bg-green-200 text-3xl mt-3 mb-6">OUR PROFILE </h1>
                     <p className="mb-5"><BsFillArrowRightCircleFill className="inline mr-2"/>	३१ मार्च २०२२ रोजी पतसंस्थेची एकूण ठेवी रु. २६ कोटी . </p>
                     <p className="mb-5"><BsFillArrowRightCircleFill className="inline mr-2"/>	सातत्याने लेखा परीक्षण वर्ग 'अ' व सातत्याने महत्तम लाभांश देणारी पतसंस्था . </p>
                     <p className="mb-5"><BsFillArrowRightCircleFill className="inline mr-2"/>	निःस्पृहपणे काम करणारे संचालक मंडळ. </p>

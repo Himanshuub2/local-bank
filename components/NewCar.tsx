@@ -7,10 +7,10 @@ import Marquee from 'react-fast-marquee';
 import c1 from "../assets/c1.jpg"
 import c2 from "../assets/c2.jpg"
 import c3 from "../assets/c3.jpg"
-import c4 from "../assets/c4.jpg"
+// import c4 from "../assets/c4.jpg"
 import c5 from "../assets/c5.jpg"
 import c6 from "../assets/c6.jpg";
-const slides = [c1,c2,c3,c5,c6];
+const slides = [c1,c2,c3,c6];
 function NewCar() {
   
 
